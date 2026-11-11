@@ -13,13 +13,15 @@ python3 -m http.server 8765
 
 Puis ouvrir <http://localhost:8765/index.html>. N'importe quel serveur statique convient (le site ne fonctionne pas bien en `file://` à cause du chargement des polices).
 
-## Mettre en ligne
+## Mettre en ligne (GitHub Pages)
 
-Publier **uniquement** `index.html` et le dossier `assets/` sur un hébergement statique (Netlify, Vercel, GitHub Pages, OVH…). Les autres fichiers (`PRODUCT.md`, `DESIGN.md`, `.impeccable/`, `.claude/`) sont des notes de travail et n'ont pas à être publiés.
+Le workflow `.github/workflows/pages.yml` publie le site à chaque envoi sur `main` (ou à la demande depuis l'onglet *Actions*). Il ne publie que `index.html` et `assets/` : les notes de conception (`PRODUCT.md`, `DESIGN.md`, `.impeccable/`, `.claude/`) restent hors du site.
 
-Une fois le nom de domaine connu :
-- dans `index.html`, remplacer `assets/img/og.jpg` (balise `og:image`) par l'URL absolue de l'image ;
-- ajouter `<link rel="canonical">` et le champ `url` dans les données structurées (bloc JSON-LD).
+Adresse prévue : <https://loopifyagency.github.io/site-le-fils-de-venise/>
+
+**Réglage à faire une seule fois** : dépôt GitHub → *Settings* → *Pages* → *Build and deployment* → *Source* : **GitHub Actions**.
+
+Avec un nom de domaine à soi : l'ajouter dans *Settings → Pages → Custom domain*, puis remplacer l'adresse `loopifyagency.github.io/site-le-fils-de-venise` par le domaine dans `index.html` (balises `canonical`, `og:url`, `og:image` et bloc JSON-LD).
 
 ## Structure
 
@@ -57,7 +59,7 @@ assets/img/           photos en WebP, texture, favicon, image de partage
 
 - **Photos en haute définition** (au moins 1600 px de large). Les cinq photos actuelles font 202×360 et 224×298 px : le site les affiche en petit format pour limiter le flou, mais elles ne supportent pas un affichage plein écran.
 - **Une photo de façade** qui ne soit pas une capture de rue : l'actuelle (`photo-5`) y ressemble.
-- Le **nom de domaine**.
+- Le **nom de domaine** (facultatif : le site fonctionne déjà sur l'adresse GitHub Pages).
 
 ## Photos et ressources : provenance
 
