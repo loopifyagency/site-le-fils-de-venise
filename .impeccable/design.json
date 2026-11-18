@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-11T11:56:55Z",
+  "title": "Design System: Le fils de Venise",
+  "extensions": {
+    "colorMeta": {
+      "kaki": {
+        "role": "primary",
+        "displayName": "Mur kaki",
+        "canonical": "#5b6537",
+        "tonalRamp": [
+          "#090d00",
+          "#242911",
+          "#414a1c",
+          "#626c3e",
+          "#848f60",
+          "#a9b583",
+          "#ced5b7",
+          "#ebf3d4"
+        ]
+      },
+      "kaki-clair": {
+        "role": "primary",
+        "displayName": "Kaki de trait",
+        "canonical": "#8b9760",
+        "tonalRamp": [
+          "#090d00",
+          "#242a0d",
+          "#414a14",
+          "#616c37",
+          "#849059",
+          "#a9b57d",
+          "#cdd6b4",
+          "#ebf3d1"
+        ]
+      },
+      "kaki-profond": {
+        "role": "primary",
+        "displayName": "Kaki profond",
+        "canonical": "#3e4727",
+        "tonalRamp": [
+          "#090d01",
+          "#242918",
+          "#404929",
+          "#616b4a",
+          "#848e6c",
+          "#a8b48f",
+          "#cdd5be",
+          "#ebf2db"
+        ]
+      },
+      "laiton": {
+        "role": "secondary",
+        "displayName": "Laiton",
+        "canonical": "#d8a64a",
+        "tonalRamp": [
+          "#1a0500",
+          "#392100",
+          "#663a00",
+          "#8a5c00",
+          "#b07f19",
+          "#d7a549",
+          "#ebcc9a",
+          "#ffeab6"
+        ]
+      },
+      "laiton-vif": {
+        "role": "secondary",
+        "displayName": "Laiton vif",
+        "canonical": "#edbe66",
+        "tonalRamp": [
+          "#190500",
+          "#382100",
+          "#643b00",
+          "#885d00",
+          "#ad8121",
+          "#d4a64d",
+          "#e9cd9c",
+          "#ffebb8"
+        ]
+      },
+      "nuit": {
+        "role": "neutral",
+        "displayName": "Nuit",
+        "canonical": "#23271d",
+        "tonalRamp": [
+          "#0a0c07",
+          "#252722",
+          "#42473c",
+          "#63685d",
+          "#868b7f",
+          "#abb0a3",
+          "#cfd2ca",
+          "#ecf0e8"
+        ]
+      },
+      "ardoise": {
+        "role": "neutral",
+        "displayName": "Ardoise",
+        "canonical": "#3c403a",
+        "tonalRamp": [
+          "#0a0c09",
+          "#252724",
+          "#424640",
+          "#636861",
+          "#868b84",
+          "#abb0a8",
+          "#cfd2cd",
+          "#ecefeb"
+        ]
+      },
+      "brume": {
+        "role": "neutral",
+        "displayName": "Brume",
+        "canonical": "#a9aca2",
+        "tonalRamp": [
+          "#0b0c08",
+          "#262722",
+          "#44463e",
+          "#65675e",
+          "#888b81",
+          "#acafa5",
+          "#d0d2cc",
+          "#edefe9"
+        ]
+      },
+      "beton": {
+        "role": "neutral",
+        "displayName": "Béton",
+        "canonical": "#dcdcd3",
+        "tonalRamp": [
+          "#0b0b08",
+          "#272723",
+          "#46463e",
+          "#67675f",
+          "#8a8a81",
+          "#afafa6",
+          "#d1d1cc",
+          "#efefe9"
+        ]
+      },
+      "craie": {
+        "role": "neutral",
+        "displayName": "Craie",
+        "canonical": "#f3f1e8",
+        "tonalRamp": [
+          "#0c0b08",
+          "#272622",
+          "#47453e",
+          "#68665e",
+          "#8b8981",
+          "#b0aea6",
+          "#d2d1cc",
+          "#f0eee9"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Titres de section et d'appel à l'action."
+      },
+      "hero-name": {
+        "displayName": "Nom du salon",
+        "purpose": "« VENISE » en capitales, pleine largeur."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Titres d'étape et de panneau."
+      },
+      "price": {
+        "displayName": "Prix",
+        "purpose": "Prix des forfaits, chasse tabulaire."
+      },
+      "quote": {
+        "displayName": "Avis",
+        "purpose": "Avis clients, trois paliers de taille selon la longueur."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Texte courant, mesure 65 caractères."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Étiquettes de boutons."
+      }
+    },
+    "shadows": [
+      {
+        "name": "panneau",
+        "value": "0 34px 46px -34px rgba(35,39,29,.6)",
+        "purpose": "Panneaux de prix."
+      },
+      {
+        "name": "bouton-flottant",
+        "value": "0 12px 26px -10px rgba(0,0,0,.55)",
+        "purpose": "Appel flottant mobile."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(.23,1,.32,1)",
+        "purpose": "Retours d'état : pression, survol, couleur."
+      },
+      {
+        "name": "ease-expo",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Remplissages, soulignements, légendes."
+      },
+      {
+        "name": "gsap-expo-out",
+        "value": "expo.out",
+        "purpose": "Entrées de titres, miroirs et sections."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "menu",
+        "value": "1000px"
+      },
+      {
+        "name": "mise-en-scene",
+        "value": "900px"
+      },
+      {
+        "name": "hero-large",
+        "value": "1200px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Bouton principal",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Action de réservation : laiton, remplissage crème qui monte au survol.",
+      "html": "<a class=\"ds-btn ds-btn-primary\" href=\"#\"><span class=\"ds-btn-fill\"></span><span class=\"ds-btn-label\">Prendre rendez-vous</span></a>",
+      "css": ".ds-btn{position:relative;isolation:isolate;overflow:hidden;display:inline-flex;align-items:center;justify-content:center;min-height:3rem;padding:.95em 1.6em;border-radius:999px;font:700 1rem/1 Figtree,system-ui,sans-serif;text-decoration:none;background:#d8a64a;color:#23271d;transition:scale .14s cubic-bezier(.23,1,.32,1),color .4s cubic-bezier(.23,1,.32,1)}.ds-btn-fill{position:absolute;inset:-1px;z-index:-1;background:#f3f1e8;border-radius:50% 50% 0 0/100% 100% 0 0;transform:translateY(102%);transition:transform .55s cubic-bezier(.16,1,.3,1),border-radius .55s cubic-bezier(.16,1,.3,1)}.ds-btn-label{position:relative}.ds-btn:hover .ds-btn-fill,.ds-btn:focus-visible .ds-btn-fill{transform:none;border-radius:0}.ds-btn:active{scale:.97}.ds-btn:focus-visible{outline:3px solid #23271d;outline-offset:3px}"
+    },
+    {
+      "name": "Bouton fantôme",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Action secondaire (appeler) sur fond sombre ou kaki.",
+      "html": "<div style=\"background:#5b6537;padding:20px\"><a class=\"ds-ghost\" href=\"#\">06 60 71 96 83</a></div>",
+      "css": ".ds-ghost{display:inline-flex;align-items:center;min-height:3rem;padding:.95em 1.6em;border-radius:999px;font:700 1rem/1 Figtree,system-ui,sans-serif;text-decoration:none;color:#f3f1e8;box-shadow:inset 0 0 0 1.5px rgba(243,241,232,.55);transition:background-color .4s,color .4s}.ds-ghost:hover,.ds-ghost:focus-visible{background:#f3f1e8;color:#23271d}.ds-ghost:focus-visible{outline:3px solid #d8a64a;outline-offset:3px}"
+    },
+    {
+      "name": "Miroir en arche",
+      "kind": "custom",
+      "refersTo": "miroir-arche",
+      "description": "Cadre signature : arche, bord crème, photo en couverture.",
+      "html": "<figure class=\"ds-mirror\"><div class=\"ds-glass\"></div></figure>",
+      "css": ".ds-mirror{margin:0;width:140px}.ds-glass{aspect-ratio:9/16;border:6px solid #f3f1e8;border-radius:999px 999px 14px 14px;background:#3c403a}"
+    },
+    {
+      "name": "Panneau de prix",
+      "kind": "card",
+      "refersTo": "panel-prix-kaki",
+      "description": "Un forfait : titre condensé, lignes nom / durée / prix.",
+      "html": "<article class=\"ds-panel\"><h3>Barbe</h3><ul><li><span class=\"n\">Barbe<small>7 min</small></span><span class=\"p\">10 €</span></li><li><span class=\"n\">Contour barbe<small>5 min</small></span><span class=\"p\">5 €</span></li></ul></article>",
+      "css": ".ds-panel{width:300px;padding:1.5rem;border-radius:16px;background:#5b6537;color:#f3f1e8;box-shadow:0 34px 46px -34px rgba(35,39,29,.6);font-family:Figtree,system-ui,sans-serif}.ds-panel h3{margin:0 0 1rem;font:800 2.6rem/.95 'Bricolage Grotesque','Arial Narrow',sans-serif;font-stretch:75%;letter-spacing:-.02em}.ds-panel ul{list-style:none;margin:0;padding:0}.ds-panel li{display:flex;justify-content:space-between;align-items:center;padding:.8rem 0;border-top:1px solid rgba(243,241,232,.24)}.ds-panel .n{font-weight:600;display:grid}.ds-panel small{font-weight:400;font-size:.86rem;color:#d6d8c4}.ds-panel .p{font:800 1.75rem/1 'Bricolage Grotesque','Arial Narrow',sans-serif;font-stretch:75%;font-variant-numeric:tabular-nums}"
+    },
+    {
+      "name": "Pastille d'ouverture",
+      "kind": "chip",
+      "refersTo": "",
+      "description": "Statut calculé à l'heure de Paris.",
+      "html": "<p class=\"ds-status\"><i></i><span>Ouvert · ferme à 21 h</span></p>",
+      "css": ".ds-status{display:inline-flex;align-items:center;gap:.6rem;margin:0;padding:.7rem 1rem;border-radius:999px;background:#5b6537;color:#f3f1e8;font:600 .95rem/1.3 Figtree,system-ui,sans-serif}.ds-status i{width:.7rem;height:.7rem;border-radius:50%;background:#b9d86a}"
+    },
+    {
+      "name": "Lien de navigation",
+      "kind": "nav",
+      "refersTo": "",
+      "description": "Soulignement qui se dessine de gauche à droite.",
+      "html": "<div style=\"background:#23271d;padding:20px\"><a class=\"ds-link\" href=\"#\">Savoir-faire</a></div>",
+      "css": ".ds-link{position:relative;display:inline-block;text-decoration:none;color:#f3f1e8;font:600 1rem/1.6 Figtree,system-ui,sans-serif}.ds-link::after{content:'';position:absolute;left:0;right:0;bottom:-.15em;height:1.5px;background:currentColor;transform:scaleX(0);transform-origin:right;transition:transform .45s cubic-bezier(.16,1,.3,1)}.ds-link:hover::after,.ds-link:focus-visible::after{transform:scaleX(1);transform-origin:left}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Le mur du salon",
+    "overview": "La page est le mur d'un salon de quartier à la tombée du jour. Des miroirs en arche portent les photos, des traits de rasoir parallèles balaient les murs kaki, des dégradés se dessinent en lignes de poids croissant, comme une coupe qui part de la peau et monte vers la longueur. Le geste signature est le **trait** : il est offert au salon, et il est offert sur la page, partout.\n\nLa palette est celle imposée par le salon, gris et vert kaki, travaillée à grande échelle : de larges champs kaki, du béton gris chaud, une ardoise nuit. Le laiton n'apparaît que comme lumière, sur les actions et quelques accents. Les titres sont géants, condensés et gras ; le texte reste calme et lisible. La chaleur vient de la matière (grain de barbe rasée, photos réelles, cadres crème) et du ton, pas d'un dégradé d'ambiance.\n\nLe système refuse le gabarit barbier (noir et or, poteau rayé, ciseaux en icône) et le duo crème + serif.",
+    "keyCharacteristics": [
+      "Miroirs en arche pour toutes les photos ; jamais de rectangle à coins arrondis pour une photo.",
+      "Trois traits parallèles courbes comme motif récurrent (hero, chargement, galerie).",
+      "Titres condensés très gros, en casse normale ; majuscules réservées au nom « VENISE ».",
+      "Larges champs de couleur : chaque section est un champ kaki, béton, craie, nuit ou ardoise.",
+      "Mouvement scénarisé, une mise en scène par section, toujours optionnel."
+    ],
+    "rules": [
+      {
+        "name": "The Light-Only Rule",
+        "body": "Le laiton éclaire : actions, accents, pastilles. Il ne remplit pas de grande surface hors du panneau « Offert » et du lien Instagram.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tint Rule",
+        "body": "Les textes secondaires se teintent de la couleur du fond (mélange craie ou nuit), jamais d'un gris neutre.",
+        "section": "colors"
+      },
+      {
+        "name": "The Giant Rule",
+        "body": "Un titre soit domine la section, soit n'est pas un titre. Pas de demi-mesure entre le corps courant et le titre géant.",
+        "section": "typography"
+      },
+      {
+        "name": "The Sentence Rule",
+        "body": "Les titres sont en casse normale ; la capitale est réservée au nom du salon.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Elevation Rule",
+        "body": "Une surface déclare une ombre ou une bordure, jamais les deux.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do monter les photos dans des arches ou des ovales à cadre crème de 5–6 px.",
+      "Do garder trois traits parallèles comme motif (jamais un seul trait isolé).",
+      "Do réserver le laiton aux actions et aux points de lumière.",
+      "Do donner à chaque section sa propre entrée en scène, et garder le contenu lisible sans elle.",
+      "Do teinter le texte secondaire de la couleur du fond."
+    ],
+    "donts": [
+      "Don't utiliser un gabarit barbier (noir et or, poteau rayé, ciseaux ou rasoir en icône).",
+      "Don't mettre du texte courant en laiton sur kaki.",
+      "Don't étirer les photos au-delà de 1,7× leur définition native : la taille d'un miroir suit la photo, pas l'inverse.",
+      "Don't recourir à un texte en contour sur la police variable : les contours se chevauchent ; utiliser une couleur pleine.",
+      "Don't inventer de chiffres (clientèle, ancienneté, note) : seuls les faits fournis par le salon figurent sur la page."
+    ]
+  }
+}
